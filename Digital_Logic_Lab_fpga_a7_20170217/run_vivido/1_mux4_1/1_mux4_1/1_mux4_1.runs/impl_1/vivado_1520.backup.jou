@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Mar  2 10:28:40 2019
+# Process ID: 1520
+# Current directory: D:/fpga/Digital_Logic_Lab_fpga_a7_20170217/run_vivido/1_mux4_1/1_mux4_1/1_mux4_1.runs/impl_1
+# Command line: vivado.exe -log mux4_1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mux4_1.tcl -notrace
+# Log file: D:/fpga/Digital_Logic_Lab_fpga_a7_20170217/run_vivido/1_mux4_1/1_mux4_1/1_mux4_1.runs/impl_1/mux4_1.vdi
+# Journal file: D:/fpga/Digital_Logic_Lab_fpga_a7_20170217/run_vivido/1_mux4_1/1_mux4_1/1_mux4_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mux4_1.tcl -notrace

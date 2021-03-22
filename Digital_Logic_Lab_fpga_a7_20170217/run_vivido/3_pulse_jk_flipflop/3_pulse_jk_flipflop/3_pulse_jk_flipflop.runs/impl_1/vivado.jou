@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Feb 17 11:25:30 2017
+# Process ID: 15404
+# Current directory: /home/innovril/digital_logic_lab/run_vivido/3_pulse_jk_flipflop/3_pulse_jk_flipflop/3_pulse_jk_flipflop.runs/impl_1
+# Command line: vivado -log pulse_jk_flipflop.vdi -applog -messageDb vivado.pb -mode batch -source pulse_jk_flipflop.tcl -notrace
+# Log file: /home/innovril/digital_logic_lab/run_vivido/3_pulse_jk_flipflop/3_pulse_jk_flipflop/3_pulse_jk_flipflop.runs/impl_1/pulse_jk_flipflop.vdi
+# Journal file: /home/innovril/digital_logic_lab/run_vivido/3_pulse_jk_flipflop/3_pulse_jk_flipflop/3_pulse_jk_flipflop.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source pulse_jk_flipflop.tcl -notrace

@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Feb 17 11:25:30 2017
+# Process ID: 15404
+# Current directory: /home/innovril/digital_logic_lab/run_vivido/3_pulse_jk_flipflop/3_pulse_jk_flipflop/3_pulse_jk_flipflop.runs/impl_1
+# Command line: vivado -log pulse_jk_flipflop.vdi -applog -messageDb vivado.pb -mode batch -source pulse_jk_flipflop.tcl -notrace
+# Log file: /home/innovril/digital_logic_lab/run_vivido/3_pulse_jk_flipflop/3_pulse_jk_flipflop/3_pulse_jk_flipflop.runs/impl_1/pulse_jk_flipflop.vdi
+# Journal file: /home/innovril/digital_logic_lab/run_vivido/3_pulse_jk_flipflop/3_pulse_jk_flipflop/3_pulse_jk_flipflop.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source pulse_jk_flipflop.tcl -notrace
+Command: open_checkpoint pulse_jk_flipflop_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 959.988 ; gain = 0.000 ; free physical = 1036 ; free virtual = 4550
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/innovril/digital_logic_lab/run_vivido/3_pulse_jk_flipflop/3_pulse_jk_flipflop/3_pulse_jk_flipflop.runs/impl_1/.Xil/Vivado-15404-Lenovo-IdeaPad-Y480/dcp/pulse_jk_flipflop.xdc]
+Finished Parsing XDC File [/home/innovril/digital_logic_lab/run_vivido/3_pulse_jk_flipflop/3_pulse_jk_flipflop/3_pulse_jk_flipflop.runs/impl_1/.Xil/Vivado-15404-Lenovo-IdeaPad-Y480/dcp/pulse_jk_flipflop.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1262.562 ; gain = 0.000 ; free physical = 778 ; free virtual = 4292
+Restored from archive | CPU: 0.000000 secs | Memory: 0.020317 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1262.562 ; gain = 0.000 ; free physical = 778 ; free virtual = 4292
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2016.2 (64-bit) build 1577090
+open_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1262.562 ; gain = 302.574 ; free physical = 778 ; free virtual = 4292
+source /home/innovril/rs.tcl
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a200t'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-20] Rule violation (CFGBVS-1) Missing CFGBVS and CONFIG_VOLTAGE Design Properties - Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC 23-20] Rule violation (LUTLP-1) Combinatorial Loop - 1 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. To allow bitstream creation for designs with combinatorial logic loops (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks LUTLP-1]. NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. led8_Q_OBUF_inst_i_2.
+WARNING: [DRC 23-20] Rule violation (LUTLP-1) Combinatorial Loop - 1 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. To allow bitstream creation for designs with combinatorial logic loops (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks LUTLP-1]. NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. led8_Q_OBUF_inst_i_3.
+WARNING: [DRC 23-20] Rule violation (LUTLP-1) Combinatorial Loop - 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. To allow bitstream creation for designs with combinatorial logic loops (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks LUTLP-1]. NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. led8_Q_OBUF_inst_i_2, led8_Q_OBUF_inst_i_3.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 4 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 4 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./pulse_jk_flipflop.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/innovril/digital_logic_lab/run_vivido/3_pulse_jk_flipflop/3_pulse_jk_flipflop/3_pulse_jk_flipflop.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Fri Feb 17 11:25:56 2017. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.2/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1737.191 ; gain = 474.629 ; free physical = 330 ; free virtual = 3849
+INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file pulse_jk_flipflop.hwdef
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 17 11:25:56 2017...

@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:/home/innovril/digital_logic_lab/run_vivido/3_rs_latch/rs_latch.xdc rfile:../../../../rs_latch.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AD24 [get_ports sw2_R]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AC21 [get_ports sw1_S]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F8 [get_ports led8_Q]

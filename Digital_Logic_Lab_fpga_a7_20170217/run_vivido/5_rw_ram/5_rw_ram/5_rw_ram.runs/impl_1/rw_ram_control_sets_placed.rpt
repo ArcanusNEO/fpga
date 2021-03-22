@@ -1,0 +1,55 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Fri Feb 17 11:36:09 2017
+| Host         : Lenovo-IdeaPad-Y480 running 64-bit Ubuntu 16.04.1 LTS
+| Command      : report_control_sets -verbose -file rw_ram_control_sets_placed.rpt
+| Design       : rw_ram
+| Device       : xc7a200t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     2 |
+| Unused register locations in slices containing registers |     4 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               4 |            1 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------+---------------------+------------------+------------------+----------------+
+|     Clock Signal    |    Enable Signal    | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------+---------------------+------------------+------------------+----------------+
+|  row1_clk_IBUF_BUFG | p_0_in              |                  |                1 |              4 |
+|  row1_clk_IBUF_BUFG | data_out[3]_i_1_n_0 |                  |                1 |              4 |
++---------------------+---------------------+------------------+------------------+----------------+
+
+
